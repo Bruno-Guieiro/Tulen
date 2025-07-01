@@ -1,0 +1,272 @@
+*{box-sizing: border-box;
+margin: 0;
+transition: 0.4s;
+    font-family: "Montserrat", sans-serif;}
+
+#social{
+  height: calc(100% - 90px);
+      display: flex;
+    justify-content: center;
+    align-items: center; }
+
+    #redes{
+    display: block;
+    font-size: 18px;
+    color: #252525;
+    margin-bottom: 50px;
+}
+
+body{ display: grid;
+ height: 100vh;
+ grid-template-columns: 90px 1fr;
+}
+
+#naveg {
+    display: grid;
+    grid-template-rows: 90px 1fr;
+}
+
+#menu{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+       #menuu { display: inline-block;
+  height: 10px;
+  width: 40%;
+  border-bottom: solid 2px white;
+  border-top: solid 2px white;
+  margin-left: 2%;
+      cursor: pointer;
+ }
+
+  aside{
+    width: 270px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -335px;
+    background-color: white;
+    z-index: 99;
+    transition: 0.5s;
+  }
+
+  #gridd{
+    display: grid;
+    grid-template-columns: 47% 1fr;
+     
+  }
+
+
+  #azul{
+    background: #2916e0;
+  
+    padding: 0 15px;
+    
+  }
+
+  #bone{
+     width: 515px;
+    height: 515px;
+    border-radius: 50%;
+    margin: 82px auto 50px;
+  }
+
+  #azulposytion{
+        text-align: center;
+    background-image: url(about-bg.png.webp);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center center;
+  }
+
+  
+  #mya{
+     display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #2916e0;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-size: 36px;
+  }
+
+canvass {
+    -webkit-transform: rotate(202deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+  
+  #textpf{
+        max-width: 550px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+ 
+  #btnpf{
+        border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+                text-align: center;
+                margin-right: 28px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 13px 50px;
+  }
+
+  #check{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top: 35px;
+    left: 25px;
+    opacity: 0;
+}
+
+  #check:checked+aside{left: 0;}
+
+
+  #check2{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    opacity: 0;
+  }  
+
+
+  
+
+
+ #voltar{
+    width: 90px;
+    height: 90px;
+    padding-top: 23px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background: #0f0f0f;
+    cursor: pointer;
+  }
+
+  #tulen{
+        background-color: #2916e0;
+    width: calc(100% - 90px);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  #pags{
+    height: calc(100% - 160px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #btna{
+    font-size: 35px;
+    font-weight: 600;
+    color: #b2b2b2;
+    
+  }
+
+a{
+   text-decoration: none;
+    color: #b2b2b2;
+}
+
+
+#roles{
+  position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+    bottom: 0;
+    
+    
+}
+
+svg{
+  fill: #2916e0;
+}
+
+
+#redesa{
+    font-size: 18px;
+    color: #b2b2b2;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#redesaa{
+    font-size: 18px;
+    color: #b2b2b2;
+    
+    margin-bottom: 10px;
+}
+
+#calango {background-image: url(5.jpg.webp);
+flex-grow: 7;
+order: -1;}
+#mulher {background-image: url(1.jpg.webp);}
+#cachorro {background-image: url(2.jpg.webp);}
+#mar {background-image: url(3.jpg.webp);}
+#carro {background-image: url(4.jpg.webp);}
+
+
+
+
+#imagens {display: flex;}
+
+.item-img{flex-grow: 1;
+background-size: cover;
+background-position: center;
+position: relative;
+overflow: hidden;}
+
+.item-img:hover{
+    flex-grow: 7;
+}
+
+.item-img:hover~#calango {flex-grow: 1;}
+.item-img:hover~#calango:hover {flex-grow: 7;}
+
+.texto{
+    position: absolute;
+    text-wrap: nowrap;
+    bottom: 25%;
+    left: 5%;
+    opacity: 0;
+    color: white;
+}
+
+.item-img:hover  .texto{ opacity: 1;
+bottom: 5%;}
+
+
+#peop{
+    display: inline-block;
+    padding: 4px 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #2916e0;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+#quadradoa{
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+}
